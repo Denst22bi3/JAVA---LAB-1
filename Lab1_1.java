@@ -23,9 +23,9 @@ public class Main {
              else {months=months+10-monthtoday+birthmonth;years=years-1;}//подсчет месяцев
         if (days==31) {days=0;}
         if (months==12) {months=0;}
-        System.out.println(days);
-        System.out.println(months);
-        System.out.println(years);
+        System.out.println("Ваш возраст - дней: " + days);
+        System.out.println("Месяцев:" + months);
+        System.out.println("Лет: " + years);
 
 
 
